@@ -1,9 +1,0 @@
-a = int(input("Nhap a: "))
-b = int(input("Nhap b: "))
-x, y = a, b
-while b != 0:
-    a, b = b, a % b
-ucln = a
-bcnn = (x * y) // ucln
-print("UCLN =", ucln)
-print("BCNN =", bcnn)
