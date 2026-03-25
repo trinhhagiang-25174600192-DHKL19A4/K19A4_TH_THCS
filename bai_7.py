@@ -1,24 +1,19 @@
-while True:
-    print("1. Cong")
-    print("2. Tru")
-    print("3. Nhan")
-    print("4. Chia")
-    print("0. Thoat")
-    chon = int(input("Chon: "))
-    if chon == 0:
-        break
-    a = float(input("Nhap a: "))
-    b = float(input("Nhap b: "))
-    if chon == 1:
-        print("ket qua:", a + b)
-    elif chon == 2:
-        print("ket qua:", a - b)
-    elif chon == 3:
-        print("ket qua:", a * b)
-    elif chon == 4:
-        if b == 0:
-            print("khong chia duoc")
-        else:
-            print("ket qua:", a / b)
-    else:
-        print("chon sai")
+print("MENU")
+print("1. Cafe")
+print("2. Cam vat")
+print("3. Nuoc ep ca rot")
+print("4. Nuoc loc")
+print("5. Nuoc dua")
+chon = int(input("chon do uong (1-5): "))
+if chon == 1:
+    print("ban chon cafe")
+elif chon == 2:
+    print("ban chon cam vat")
+elif chon == 3:
+    print("ban chon nuoc ep ca rot")
+elif chon == 4:
+    print("ban chon ban chon nuco loc")
+elif chon == 5:
+    print("ban chon nuoc dua")
+else:
+    print("chon khong hop le")

@@ -1,13 +1,7 @@
-m = int(input("Nhap m: "))
-n = int(input("Nhap n: "))
+tu = int(input("nhap tu : "))
 
-if m < n:
-    temp = m
-    m = n
-    n = temp
-while m != n:
-    if m > n:
-        m = m - n
-    else:
-        n = n - m
-print("UCLN:", m)
+while True:
+    mau = int(input("Nhập mau (khac 0): "))
+    if mau != 0:
+        break
+print("phan so la:", tu, "/", mau)

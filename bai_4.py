@@ -1,4 +1,4 @@
-while True:
-    x = int(input("Nhap so: "))
-    if x < 0:
-        break
+chu_so = ["khong", "mot", "hai", "ba", "bon", "nam", "sau", "bay", "tam", "chin"]
+n = input("nhap so: ")
+for c in n:
+    print(chu_so[int(c)], end=" ")
